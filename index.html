@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>To-Do List</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="images/Startup_Outline.png" type="image/x-icon">
+</head>
+
+<body>
+    <header>
+        <img class="logo" src="images/Startup_Outline.png" />
+        <h1>To-Do List with JavaScript</h1>
+    </header>
+    <main>
+        <form id="myForm" name="myForm" method="post" onsubmit="return false">
+            <label for="Task">Task:</label>
+            <input type="text" id="taskName" name="taskName" placeholder="Description about your task..." size="30"
+                maxlength="60" />
+            <button class="btn btn-save-task" id="btnSaveTask">Save task</button>
+        </form>
+        <div id="taskContainer" class="task-container"></div>
+    </main>
+    <footer>
+        <p>App designed by <a href="https://www.github.com/minauz">Miguel Canalejas de la Cruz</a></p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
