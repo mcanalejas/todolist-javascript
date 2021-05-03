@@ -9,4 +9,3 @@ Solicita algunos datos de una API ([jsonplaceholder](https://jsonplaceholder.typ
 - [x] Crear una nueva tarea.
 - [x] Borrar una tarea.
 - [ ] Arreglar bug checkbox.# todolist-javascript
-# todolist-javascript
